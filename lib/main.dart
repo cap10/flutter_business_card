@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
                 'Venon Mapfunde',
                 style: TextStyle(
                     fontSize: 40.0,
+                    fontFamily: 'Pacifico',
                     color: Colors.white,
                     fontWeight: FontWeight.bold),
               ),
@@ -40,26 +41,48 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                color: Colors.white,
-                height: 100.00,
-                width: double.infinity,
-                child: Text(
-                  '+263775091262',
-                  style: TextStyle(color: Colors.teal.shade100, fontSize: 20.0),
+
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '+263775091262',
+                      style: TextStyle(
+                          color: Colors.teal.shade100,
+                          fontSize: 20.0),
+                    ),
+                  ],
                 ),
               ),
               SizedBox(
                 height: 10.0,
               ),
               Container(
-                color: Colors.white,
-                height: 100.00,
-                width: double.infinity,
-                child: Text(
-                  'takaiteyi@gmail.com',
-                  style: TextStyle(color: Colors.teal.shade100, fontSize: 20.0),
+
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'takaiteyi@gmail.com',
+                      style: TextStyle(
+                          color: Colors.teal.shade100,
+                          fontSize: 20.0),
+                    ),
+                  ],
                 ),
-              )
+              ),
             ],
           ),
         ),

@@ -40,5 +40,8 @@ flutter:
 
   assets:
     - images/example.jpg
-
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
 
